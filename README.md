@@ -4,7 +4,7 @@ The following project is for illustration purposes only.
 Project inspired by https://gist.github.com/lmillucci/48804b0598553689fc5054da10e63231
 
 <h2> Introduction </h2>
-This Progressive web application allows you to scan and check if your green pass QR code is valid. If the QR code is valid it provides you the full name linked to the green pass scanned.
+This Progressive Web Application allows you to scan and check if your green pass QR code is valid. If the QR code is valid it provides you the full name linked to the green pass scanned.
 Thanks to PWA you can easily download and run the app on your device. 
 
 <h2> Description </h2>
