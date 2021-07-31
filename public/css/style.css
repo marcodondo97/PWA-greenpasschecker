@@ -1,0 +1,13 @@
+#error-handler{
+    color: red;
+   
+}
+#video-preview{
+width: 300px;
+    height: 300px; 
+    object-fit: cover;
+    
+}
+#page-2{
+display:none;
+}

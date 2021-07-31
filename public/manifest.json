@@ -1,0 +1,3 @@
+{ "short_name": "Greenpasschecker", "name": "Greenpasschecker", "icons": [ { "src": "../img/greenpasschecker48.png", "type": "image/png", "sizes": "48x48" }, { "src": "../img/greenpasschecker96.png", "type": "image/png", "sizes": "96x96" }, { "src": "../img/greenpasschecker144.png", "type": "image/png", "sizes": "144x144" }, { "src": "../img/greenpasschecker192.png", "type": "image/png", "sizes": "192x192" }, { "src": "../img/greenpasschecker512.png", "type": "image/png", "sizes": "512x512" } ], "start_url": "https://yourdomain.com", "display": "fullscreen", "lang": "en-EN", "background_color": "#FFFFFF", "theme_color": "#5bb1f9", "orientation": "portrait-primary" }
+
+  
