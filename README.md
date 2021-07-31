@@ -20,7 +20,7 @@ Instascan generates the QR code string result, then it is decoded in base45 form
 Replace the content of "certificate.pem" file with your ssl public key.<br>
 Replace the content of "privatekey.pem" file with your ssl private key. <br>
 Replace the content of "certrequest.csr" file with your Certificate Signing Request.<br>
-Replace the contente of public/manigest.json > "start_url": "https://yourdomain.com" with your domain
+Replace the content of public/manigest.json > "start_url": "https://yourdomain.com" with your domain
 
 In order to run Nodejs applications you have to setup your server with these commands:
 ```
