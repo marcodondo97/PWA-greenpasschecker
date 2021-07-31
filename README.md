@@ -51,12 +51,16 @@ I used Ubuntu server provided by Google Cloud.
 Demonstration of use
 <br>
 <br>
+<br>
 <img src="screenshot/screenshot2.gif" width="20%"/>
 Install the PWA
 <br>
 <br>
+<br>
 <img src="screenshot/screenshot3.png" width="20%"/>
-Main page
+Google Lighthouse PWA audit
+<br>
 <br>
 <br>
 <img src="screenshot/screenshot4.png" width="20%"/>
+Error handler
