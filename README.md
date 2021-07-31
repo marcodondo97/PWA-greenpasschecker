@@ -41,12 +41,16 @@ cd /var/www/
 #install the neccesary packages
 npm install base45 cbor jpeg-js jsqr pako
 ```
-I used Ubuntu server provided by Google Cloud.
+I used Ubuntu server provided by Google Cloud Platform.<br>
+<img src="screenshot/screenshot5.png" width="50%"/><br>
+Infrastructure diagram
+<br>
+<br>
+<br>
 
 
 
 <h2> Images </h2>
-
 <img src="screenshot/screenshot1.gif" width="20%"/>
 Demonstration of use
 <br>
