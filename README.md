@@ -48,9 +48,15 @@ I used Ubuntu server provided by Google Cloud.
 <h2> Images </h2>
 
 <img src="screenshot/screenshot1.gif" width="20%"/>
-
+Demonstration of use
+<br>
+<br>
 <img src="screenshot/screenshot2.gif" width="20%"/>
-
+Install the PWA
+<br>
+<br>
 <img src="screenshot/screenshot3.png" width="20%"/>
-
+Main page
+<br>
+<br>
 <img src="screenshot/screenshot4.png" width="20%"/>
