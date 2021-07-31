@@ -8,7 +8,7 @@ This Progressive Web Application allows you to scan and check if your green pass
 Thanks to PWA you can easily download and run the app on your device. 
 
 <h2> Description </h2>
-The PWA runs on Nodejs runtime and it uses Express framework.<br>
+The PWA runs on the NodeJs runtime and uses the Express framework.<br>
 I used a minimal responsive design with Bootstrap 5.<br>
 To implemet the QR code scanner I used Instascan library. Link: https://github.com/schmich/instascan <br>
 Instascan generates the QR code string result, then it is decoded in base45 format, it is decompressed, afterwards the result is decoded using Concise Binary Object Representation format and finally the result is serialized in Json.
