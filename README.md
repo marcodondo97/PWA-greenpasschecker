@@ -22,7 +22,7 @@ Replace the content of "privatekey.pem" file with your ssl private key. <br>
 Replace the content of "certrequest.csr" file with your Certificate Signing Request.<br>
 Replace the content of public/manigest.json > "start_url": "https://yourdomain.com" with your domain
 
-In order to run Nodejs applications you have to setup your server with these commands:
+In order to run NodeJs applications you have to setup your server with these commands:
 ```
 sudo apt-get update
 sudo apt-get install nodejs
