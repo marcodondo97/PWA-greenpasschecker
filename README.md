@@ -9,14 +9,14 @@
 
 
 
-<b> To see the demo: https://greenpasschecker.tk/ </b>
+<b> Link: https://greenpasschecker.tk/ </b>
 
 <h2>&#x1F53A; Warning &#x1F53A; </h2>
 
 Replace the content of "certificate.pem" file with your ssl public key.<br>
 Replace the content of "privatekey.pem" file with your ssl private key. <br>
 Replace the content of "certrequest.csr" file with your Certificate Signing Request.
-
+Replace the contente of public/manigest.json > "start_url": "https://yourdomain.com" with your domain
 
 In order to run Nodejs applications you have to setup your Ubuntu server with these commands:
 ```
