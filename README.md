@@ -5,7 +5,7 @@ Project inspired by https://gist.github.com/lmillucci/48804b0598553689fc5054da10
 
 <h2> Introduction </h2>
 This Progressive Web Application allows you to scan and check if your green pass QR code is valid. If the QR code is valid it provides you the full name linked to the green pass scanned.<br>
-Thanks to PWA you can easily download and run the app on your device. 
+Thanks to PWA technology you can easily download and run the app on your device. 
 
 <h2> Description </h2>
 The PWA runs on the NodeJs runtime and uses the Express framework.<br>
