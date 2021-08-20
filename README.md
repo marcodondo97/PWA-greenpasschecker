@@ -38,7 +38,7 @@ cd /var/www/
 
 #clone this repository into the new folder
 
-#install the neccesary packages
+#install the necessary packages
 npm install base45 cbor jpeg-js jsqr pako
 ```
 I used Ubuntu server provided by Google Cloud Platform.<br>
