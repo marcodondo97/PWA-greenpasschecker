@@ -1,5 +1,5 @@
 # PWA-greenpasschecker
-Progressive Web Application to scan and check the italian COVID-19 green pass QR code.<br>
+Progressive Web Application to scan and check the european COVID-19 green pass QR code.<br>
 The following project is for illustration purposes only.<br>
 Project inspired by https://gist.github.com/lmillucci/48804b0598553689fc5054da10e63231 <br>
 
