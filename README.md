@@ -22,7 +22,7 @@ Replace the content of "privatekey.pem" file with your ssl private key. <br>
 Replace the content of "certrequest.csr" file with your Certificate Signing Request.<br>
 Replace the content of public/manigest.json > "start_url": "https://yourdomain.com" with your domain
 
-In order to run NodeJs applications you have to setup your server with these commands:
+To make Nginx proxy reverse running Nodejs applications you have to setup your server with these commands:
 ```
 sudo apt-get update
 sudo apt-get install nodejs
@@ -40,9 +40,17 @@ cd /var/www/
 
 #install the necessary packages
 npm install base45 cbor jpeg-js jsqr pako
+
+#install and configure Nginx
+sudo apt-get install nginx -y
+sudo nano /etc/nginx/sites-available/default
+#copy and paste the instructions in nginx/default of this repository
+nginx -t
+sudo service nginx restart
+
 ```
 I used Ubuntu server provided by Google Cloud Platform.<br>
-<img src="screenshot/screenshot5.png" width="50%"/><br>
+<img src="screenshot/screenshot51.png" width="50%"/><br>
 Infrastructure diagram
 <br>
 <br>
