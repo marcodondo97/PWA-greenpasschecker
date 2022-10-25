@@ -12,13 +12,6 @@ const pako = require('pako');
 const ejs = require('ejs');
 const bodyParser = require("body-parser");
 
-
-/*certificate declaration */
-const httpsOptions = {
-  key: fs.readFileSync('privatekey.pem'),
-  cert: fs.readFileSync('certificate.pem')
-};
-
 /*file declaration */
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -47,8 +40,6 @@ app.post("/request", (req, res) => {
 
 
 
-
-
 /*server setup */
-http.createServer(app).listen(80);
-https.createServer(httpsOptions, app).listen(443);
+http.createServer(app).listen(3000);
+
