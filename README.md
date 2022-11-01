@@ -31,22 +31,24 @@ sudo apt-get install nodejs
 sudo npm install -g n
 sudo n 14.16.1
 node -v
+#install nginx
+sudo apt-get install nginx -y
 
-#create the project space
-mkdir /var/www/
+#clone this repository into the www folder
 cd /var/www/
-
-#clone this repository into the new folder
-
 #install the necessary packages
 npm install base45 cbor jpeg-js jsqr pako
 
-#install and configure Nginx
-sudo apt-get install nginx -y
+
+#configure nginx
 sudo vim /etc/nginx/sites-available/default.conf
 #copy and paste the instructions in nginx/default.conf of this repository
 sudo vim /etc/nginx/sites-available/greenpasschecker.conf
 #copy and paste the instructions in nginx/greenpasschecker.conf of this repository
+
+ln -s /etc/nginx/sites-available/default.conf /etc/nginx/sites-enabled/
+ln -s /etc/nginx/sites-available/greenpasschecker.conf /etc/nginx/sites-enabled/
+
 nginx -t
 sudo service nginx restart
 
