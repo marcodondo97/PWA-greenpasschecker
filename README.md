@@ -43,8 +43,10 @@ npm install base45 cbor jpeg-js jsqr pako
 
 #install and configure Nginx
 sudo apt-get install nginx -y
-sudo nano /etc/nginx/sites-available/default
-#copy and paste the instructions in nginx/default of this repository
+sudo vim /etc/nginx/sites-available/default.conf
+#copy and paste the instructions in nginx/default.conf of this repository
+sudo vim /etc/nginx/sites-available/greenpasschecker.conf
+#copy and paste the instructions in nginx/greenpasschecker.conf of this repository
 nginx -t
 sudo service nginx restart
 
