@@ -8,12 +8,12 @@ This Progressive Web Application allows you to scan and check if your green pass
 Thanks to PWA technology you can easily download and run the app on your device. 
 
 <h2> Description </h2>
-The PWA runs on the NodeJs runtime and uses the Express framework.<br>
+The PWA runs on NodeJs and it uses the Express framework.<br>
 I used a minimal responsive design with Bootstrap 5.<br>
 To implemet the QR code scanner I used Instascan library. Link: https://github.com/schmich/instascan <br>
 Instascan generates the QR code string result, then it is decoded in base45 format, it is decompressed, afterwards the result is decoded using Concise Binary Object Representation format and finally the result is serialized in Json.
 
-<b> Link: https://greenpasschecker.ml/ </b>
+<b> Link to see the web app: https://greenpasschecker.ml/ </b>
 
 <h2>&#x1F53A; Warning &#x1F53A; </h2>
 
@@ -22,7 +22,8 @@ Replace the content of "privatekey.pem" file with your ssl private key. <br>
 Replace the content of "certrequest.csr" file with your Certificate Signing Request.<br>
 Replace the content of public/manigest.json > "start_url": "https://yourdomain.com" with your domain
 
-To make Nginx proxy reverse running Nodejs applications you have to setup your server with these commands:
+To run the web app I used an Ubuntu server with Nginx in order to proxy Nodejs.
+Commands to setup the server:
 ```
 sudo apt-get update
 sudo apt-get install nodejs
