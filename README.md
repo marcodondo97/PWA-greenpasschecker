@@ -13,7 +13,7 @@ I used a minimal responsive design with Bootstrap 5.<br>
 To implemet the QR code scanner I used Instascan library. Link: https://github.com/schmich/instascan <br>
 Instascan generates the QR code string result, then it is decoded in base45 format, it is decompressed, afterwards the result is decoded using Concise Binary Object Representation format and finally the result is serialized in Json.
 
-<b> Link to see the web app: https://greenpasschecker.ml/ </b>
+<b> Link to see the web app: http://greenpass.chickenkiller.com/ </b>
 
 <h2>&#x1F53A; Warning &#x1F53A; </h2>
 
